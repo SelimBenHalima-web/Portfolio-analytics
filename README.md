@@ -1,3 +1,7 @@
+##  Files in this repository
+- `retail_analytics_portfolio.sql` → SQL queries for KPIs and business insights.
+- `retail_sales_dashboard.xlsx` → Excel dashboard built with charts (Revenue, AOV, Payment Mix, etc.).
+  
 # SQL Retail Analytics Portfolio
 
 This repository contains SQL queries built for a **retail sales dataset** (`Portfolio_Sales.Sales_Mall`).  
