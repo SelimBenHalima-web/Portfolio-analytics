@@ -1,56 +1,62 @@
-##  Files in this repository
-- `retail_analytics_portfolio.sql` → SQL queries for KPIs and business insights.
-- `retail_sales_dashboard.xlsx` → Excel dashboard built with charts (Revenue, AOV, Payment Mix, etc.).
-  
 # SQL Retail Analytics Portfolio
 
-This repository contains SQL queries built for a **retail sales dataset** (`Portfolio_Sales.Sales_Mall`).  
-It is part of my **Data Analytics portfolio**, showcasing business-oriented KPIs and insights using **Google BigQuery**.
+This repository contains SQL queries and an Excel dashboard built for a **retail sales dataset** (`Portfolio_Sales.Sales_Mall`).  
+It is part of my **Data Analytics portfolio**, showcasing business-oriented KPIs and insights using **Google BigQuery** and **Excel**.
 
-## Analyses Included
+---
 
-### 1) Basic KPI
-- **Total Revenue**: Calculates overall sales performance.
+##  SQL Analyses
 
-### 2) Revenue by Year
-- **Purpose**: Summarize revenue at the yearly level.
-- **Insight**: Identify growth trends over time.
+The SQL scripts are in [`retail_analytics_portfolio.sql`](retail_analytics_portfolio.sql).  
+Each query is fully documented with **Purpose** and **Insight**.
 
-### 3) Revenue by Shopping Mall
-- **Purpose**: Compute revenue per mall.
-- **Insight**: Compare performance between malls.
+### Included Queries
+- **a) Total Revenue (KPI)** → Overall sales performance.
+- **b) Revenue by Year** → Growth trends across years.
+- **c) Revenue by Shopping Mall** → Compare malls performance.
+- **d) Revenue by Category and Mall** → Identify top-selling categories per mall.
+- **e) Average Order Value (AOV)** → Average basket size per order.
+- **f) Payment Method Mix** → Distribution of revenue by payment method.
+- **g) Customer Cohorts** → Retention analysis by first purchase month.
 
-### 4) Revenue by Category and Mall
-- **Purpose**: Revenue split by product category within each mall.
-- **Insight**: Identify the top-selling categories by mall.
+---
 
-### 5) Average Order Value (AOV)
-- **Purpose**: Compute the average basket size.
-- **Insight**: Understand how much customers spend per transaction.
+##  Files in this Repository
+- `retail_analytics_portfolio.sql` → SQL queries for KPIs and business insights.
+- `retail_sales_dashboard.xlsx` → Excel dashboard built with interactive charts.
+- `Dashboard_preview.png` → Snapshot of the Excel dashboard.
 
-### 6) Payment Method Mix
-- **Purpose**: Analyze revenue distribution by payment method.
-- **Insight**: Identify which payment methods are preferred by customers.
+---
 
-### 7) Customer Cohorts (Simple Example)
-- **Purpose**: Build cohorts based on first purchase month.
-- **Insight**: Analyze retention and customer activity over time.
+##  Dashboard Preview
+
+Here is a snapshot of the Excel dashboard built for the retail dataset:
+
+![Dashboard Preview](Dashboard_preview.png)
+
+The dashboard includes:
+- Revenue by year  
+- Revenue by shopping mall  
+- Revenue by product category  
+- Average Order Value (AOV)  
+- Payment method mix  
+- Sales by gender  
 
 ---
 
 ##  Tech Stack
-- **SQL** (Google BigQuery)
-- Dataset: `Portfolio_Sales.Sales_Mall`
+- **SQL** (Google BigQuery)  
+- **Excel** (Data visualization & dashboarding)  
 
 ---
 
 ##  About
 This project demonstrates my ability to:
-- Write **clean and well-documented SQL queries**.
-- Extract **business insights** from raw sales data.
-- Present results in a way that is useful for **decision-making**.
+- Write **clean and well-documented SQL queries**.  
+- Extract **business insights** from raw sales data.  
+- Build **interactive dashboards** in Excel for decision-making support.  
 
 ---
 
- **Author**: Selim Ben Halima  
- [LinkedIn](www.linkedin.com/in/selim-benhalima) | [GitHub](https://github.com/SelimBenHalima-web)
+👤 **Author**: Selim Ben Halima  
+📌 [LinkedIn](https://www.linkedin.com/in/selim-benhalima/) | [GitHub](https://github.com/SelimBenHalima-web)
