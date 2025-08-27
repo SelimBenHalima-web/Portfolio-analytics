@@ -1,3 +1,6 @@
+# Retail Sales and Consumer Insights – Istanbul Malls
+Istanbul Shopping Mall Dataset (Kaggle) – Contains shopping data from 10 malls in Istanbul (2021–2023), including customer demographics, product categories, payment methods, and revenue details. Useful for analyzing consumer behavior, sales trends, and payment distributions.
+
 # SQL Retail Analytics Portfolio
 
 This repository contains SQL queries and an Excel dashboard built for a **retail sales dataset** (`Portfolio_Sales.Sales_Mall`).  
@@ -5,12 +8,12 @@ It is part of my **Data Analytics portfolio**, showcasing business-oriented KPIs
 
 ---
 
-##  SQL Analyses
+###  SQL Analyses
 
 The SQL scripts are in [`retail_analytics_portfolio.sql`](retail_analytics_portfolio.sql).  
 Each query is fully documented with **Purpose** and **Insight**.
 
-### Included Queries
+#### Included Queries
 - **a) Total Revenue (KPI)** → Overall sales performance.
 - **b) Revenue by Year** → Growth trends across years.
 - **c) Revenue by Shopping Mall** → Compare malls performance.
@@ -21,14 +24,14 @@ Each query is fully documented with **Purpose** and **Insight**.
 
 ---
 
-##  Files in this Repository
+###  Files in this Repository
 - `retail_analytics_portfolio.sql` → SQL queries for KPIs and business insights.
 - `retail_sales_dashboard.xlsx` → Excel dashboard built with interactive charts.
 - `Dashboard_preview.png` → Snapshot of the Excel dashboard.
 
 ---
 
-##  Dashboard Preview
+#  Excel (Data visualization & dashboarding)
 
 Here is a snapshot of the Excel dashboard built for the retail dataset:
 
@@ -44,13 +47,13 @@ The dashboard includes:
 
 ---
 
-##  Tech Stack
+###  Tech Stack
 - **SQL** (Google BigQuery)  
 - **Excel** (Data visualization & dashboarding)  
 
 ---
 
-##  About
+###  About
 This project demonstrates my ability to:
 - Write **clean and well-documented SQL queries**.  
 - Extract **business insights** from raw sales data.  
